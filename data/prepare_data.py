@@ -105,5 +105,5 @@ convs = get_conversations()
 print '>> gathered conversations.\n'
 questions, answers = gather_dataset(convs,id2line)
 print questions[:2]
-#print '>> gathered questions and answers.\n'
-#prepare_seq2seq_files(questions,answers)
+print '>> gathered questions and answers.\n'
+prepare_seq2seq_files(questions,answers)
